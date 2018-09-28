@@ -1,0 +1,11 @@
+about CSS
+
+img.about-left {
+    padding: 10px;
+    float: left;
+}
+
+img.about-right {
+    padding: 10px;
+    float: right;
+} 

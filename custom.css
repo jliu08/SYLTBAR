@@ -1,0 +1,171 @@
+/* code added per Case ID 01876065 to add instagram icons */
+/* Edited 10/31/2016  by JL - Update Instagram logo to new design*/ 
+.li-instagram .icon-instagram {
+    background: url("https://cdn3.bigcommerce.com/s-h9u6j/product_images/uploaded_images/instagram-wht.png?t=1477938527") 0 0 no-reapeat !important;
+    margin-top: 1px;
+}
+
+.li-instagram .icon-instagram:hover {
+    background: url("https://cdn3.bigcommerce.com/s-h9u6j/product_images/uploaded_images/instagram-gold.png?t=1477938527") 0 0 no-repeat !important;
+}
+
+a.icon.icon-social.icon-instagram {
+    background: url("https://cdn3.bigcommerce.com/s-h9u6j/product_images/uploaded_images/instagram-wht.png?t=1477938527") 0 0 no-repeat !important;
+    margin-top: 1px;
+}
+
+.icon.icon-social.icon-instagram:hover {
+    background: url("https://cdn3.bigcommerce.com/s-h9u6j/product_images/uploaded_images/instagram-gold.png?t=1477938527") 0 0 no-repeat !important;
+}
+
+div.selector,  div.selector span {
+background-image:none !Important;
+        font-size: 12px;
+        height:30px;
+}
+ 
+ 
+div.selector {
+    -webkit-appearance: menulist;
+     border: 1px solid rgb(169, 169, 169);
+}
+    
+/*Added by Dante for Case 02273944*/
+.Left > h1#title:nth-child(1){
+    display: none;
+    }
+
+.CouponCode{
+    display: none;
+   }
+/*End case 02273944*/ 
+
+/* Being Homepage Slider Style */
+#landing .banner_home_page_top {
+        display: none !important;
+        float: left;
+        }
+        
+        #brands-slideshow {
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        }
+        
+        #brands-slideshow > div {
+        height: 180px;
+        width: 5900px; 
+        background: url(https://cdn3.bigcommerce.com/s-h9u6j/product_images/uploaded_images/brands-12.05.png?t=1480911614);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+    
+        -moz-transition: opacity 0.5s ease-out; 
+        -o-transition: opacity 0.5s ease-out; 
+        -webkit-transition: opacity 0.5s ease-out; 
+        -ms-transition: opacity 0.5s ease-out; 
+        
+        -webkit-animation: moveSlideshow 60s linear infinite;
+        -moz-animation:    moveSlideshow 60s linear infinite; 
+        }
+
+        @-webkit-keyframes moveSlideshow {
+        0% { left: 0; }
+        100% { left: -6943px; }
+        }
+        
+        @-moz-keyframes moveSlideshow {
+        0% { left: 0; }
+        100% { left: -6943px; }
+        }  
+
+/* End Homepage Slider Style */
+
+/* Begin Table CSS for product Compare pages*/
+table {
+    color:#666;
+    font-size:14px;
+    background:#eaebec;
+    margin: 0px 20px;
+    border:#ccc 1px solid;
+
+}
+table th {
+    padding:21px 25px 22px 25px;
+    border-top:1px solid #fafafa;
+    border-bottom:1px solid #e0e0e0;
+    background: #ededed;
+
+}
+table th:first-child {
+    text-align: left;
+    padding-left:20px;
+}
+
+table tr {
+    text-align: center;
+    padding-left:20px;
+}
+table td:first-child {
+    text-align: left;
+    padding-left:20px;
+    border-left: 0;
+}
+table td {
+    padding:18px;
+    border-top: 1px solid #ffffff;
+    border-bottom:1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    background: #fafafa;
+}
+table tr.even td {
+    background: #f6f6f6;
+
+}
+table tr:last-child td {
+    border-bottom:0;
+}
+
+table tr:hover td {
+    background: #e5dfd0;
+    
+}
+/* END Table CSS */
+
+/* Header Gold color */
+h1, h2 {
+    color: #A4915C; 
+}
+/*Header gold - END*/
+
+/* START Button Formatting */
+button #content-page-button {
+    color: white ;
+    padding: 10px 24px;
+    border-radius: 8px;
+    background-color: #A4915C;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px; 
+}
+
+a:hover #content-page-button{ 
+    color: #A4915c ;
+    background-color: white;
+}
+/* END Button Formatting */   
+ 
+/* START About us Page CSS 12.12.2016 */ 
+img.about-left {
+    padding: 5px 10px;
+    float: left;
+}
+
+img.about-right {
+    padding: 5px 10px;
+    float: right;
+} 
+/* END About us page CSS */​

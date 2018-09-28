@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Your SYLTBAR order receipt: %%GLOBAL_OrderNumber%%. </title>
+    <style type="text/css">
+        .address a,
+        .ii[href] {
+            color: inherit!important;
+            text-decoration: none;
+            cursor: pointer
+        }
+        
+        body {
+            height: 100%!important;
+            margin: 0;
+            padding: 0;
+            width: 100%!important;
+            -webkit-text-size-adjust: 100%;
+        }
+        
+        table,
+        td {
+            border-collapse: collapse;
+        }
+        
+        img,
+        a img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+        
+        .ReadMsgBody,
+        .ExternalClass {
+            width: 100%;
+        }
+        
+        .ExternalClass * {
+            line-height: 150%;
+        }
+        
+        a[x-apple-data-detectors] {
+            color: inherit!important;
+            text-decoration: none!important;
+            font-size: inherit!important;
+            font-family: inherit!important;
+            font-weight: inherit!important;
+            line-height: inherit!important;
+        }
+        
+        .rss-pubDate a {
+            text-decoration: none;
+            color: #6a7278;
+        }
+        
+        .payment-box .rendered-text,
+        .payment-box .rendered-text div {
+            display: inline;
+        }
+        
+        [owa365] .payment-box .rendered-text,
+        .payment-box .rendered-text div {
+            display: inline;
+        }
+        
+        p {
+            margin: 0;
+        }
+        
+        .no_thumbs .submit_cell {
+            padding-left: 30px!important;
+            padding-right: 30px!important;
+        }
+        
+        [owa365] .columns_header {
+            display: none !important;
+            width: 0 !important;
+        }
+        
+        [owa365] .mob_font span {
+            font-size: 12px !important;
+            line-height: 1.4 !important;
+            display: inline !important;
+        }
+        
+        [owa365] .mob_font span div {
+            display: inline !important;
+            padding-right: 15px !important;
+        }
+        
+        [owa365] .receipt_totals {
+            height: auto !important;
+            padding: 3px 0 0 !important
+        }
+        
+        [owa365] .receipt_totals2 {
+            height: auto !important;
+            padding: 3px 0 0 !important
+        }
+        
+        [owa365] .column_full {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+        
+        [owa365] .stacked_cell {
+            vertical-align: middle !important;
+        }
+        
+        [owa365] .stacked_cell_desc {
+            vertical-align: middle !important;
+        }
+        
+        [owa365] .stacked_total {
+            padding-bottom: 10px !important;
+        }
+        
+        [owa365] .footer_total {
+            width: 75% !important;
+        }
+        
+        [owa365] .footer_totalvalue {
+            width: 25% !important;
+        }
+        
+        [owa365] .ac_desc,
+        [owa365] .ac_image,
+        [owa365] .ac_image_container {
+            height: auto !important;
+        }
+        
+        [owa365] .ac_desc,
+        [owa365] .ac_image_container {
+            vertical-align: top !important;
+        }
+        
+        [owa365] .ac_desc_qty {
+            vertical-align: middle !important;
+        }
+        /* Review Form Styles */
+        
+        [owa365] .review-part2-cell-thumb {
+            border: 0 !important;
+        }
+        
+        [owa365] .owa {
+            display: block !important;
+            overflow: visible !important;
+            height: auto !important;
+        }
+        
+        [owa365] .owa_button {
+            font-size: 16px !important;
+            line-height: 42px !important;
+        }
+        
+        [owa365] .submit_cell,
+        [owa365] .submit_cell_thumb {
+            display: none;
+        }
+        
+        [owa365] .form-review * {
+            display: none !important;
+            overflow: hidden !important;
+            height: 0 !important;
+            width: 100% !important;
+        }
+        
+        [owa365] .no_thumbs .submit_cell {
+            padding-left: 30px!important;
+            padding-right: 30px!important;
+        }
+        
+        @media screen and (max-width: 679px) {
+            .columns_header {
+                display: none!important;
+                width: 0!important;
+            }
+            .receipt_totals {
+                height: auto !important;
+                padding: 3px 0 0!important;
+            }
+            .receipt_totals2 {
+                height: auto !important;
+                padding: 3px 0 0 !important
+            }
+            .column_full {
+                width: 100%!important;
+                max-width: 100%!important;
+            }
+            .stacked_cell {
+                vertical-align: middle!important;
+                height: auto!important;
+            }
+            .stacked_cell_desc {
+                vertical-align: middle!important;
+            }
+            .full {
+                width: 100% !important;
+                max-width: 100%!important;
+            }
+            .mob_font * {
+                font-size: 12px !important;
+                line-height: 1.4 !important;
+                display: inline !important;
+            }
+            .mob_font span div {
+                display: inline !important;
+                padding-right: 15px !important;
+            }
+            .stacked_total {
+                padding-bottom: 10px !important;
+            }
+            .ac_desc_qty {
+                vertical-align: middle !important;
+            }
+            #social-icons {
+                text-align: center !important;
+            }
+            .address {
+                text-align: center !important;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .eml_hide,
+            .eml_hide * {
+                display: none !important;
+                width: 0 !important;
+            }
+            .img-rsz {
+                width: 100% !important;
+                height: auto !important;
+                max-width: 100% !important;
+                max-height: none !important;
+            }
+            .full {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            .receipt_totals {
+                height: auto !important;
+                padding: 0 0 5px !important;
+            }
+            .stacked_cell {
+                height: auto !important;
+            }
+            .upscale_font {
+                font-size: 14px !important;
+            }
+            .no_thumbs .submit_cell {
+                padding-left: 10px!important;
+                padding-right: 10px!important;
+            }
+            .reviewdesc {
+                padding-left: 20px!important;
+                padding-right: 20px!important;
+            }
+            .footer_total {
+                width: 75% !important;
+            }
+            .footer_totalvalue {
+                width: 25% !important;
+            }
+            .ac_desc,
+            .ac_image,
+            .ac_image_container {
+                height: auto !important;
+            }
+            .ac_desc,
+            .ac_image_container {
+                vertical-align: top !important;
+            }
+        }
+    </style>
+</head>
+
+<body style="background:#ffffff">
+    <div style="background:#e4e7e9;font-family:&#x27;Libre Baskerville&#x27;, &#x27;Palatino Linotype&#x27;, &#x27;Book Antiqua&#x27;, Palatino, serif" class="template-preview ">
+        <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" />
+        <table width="100%" align="center" cellPadding="0" cellSpacing="0" border="0">
+            <tbody>
+                <tr class="eml_hide">
+                    <td height="1" style="display:none;font-size:1px;line-height:1px">Thank you for shopping with us.</td>
+                </tr>
+                <tr>
+                    <td height="10" class="eml_hide" style="height:20px;font-size:20px;line-height:20px"></td>
+                </tr>
+            </tbody>
+        </table>
+        <!--[if mso]><table width="680" align="center" cellPadding="0" cellSpacing="0" border="0"><tbody><tr><td><![endif]-->
+        <table style="width:100%;max-width:680px;margin:0 auto;background:#ffffff" align="center" cellPadding="0" cellSpacing="0" border="0">
+            <tbody>
+                <tr>
+                    <td style="padding-top:30px;font-size:1px;line-height:1px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <section></section>
+                        <div class="block-wrapper">
+                            <table cellPadding="0" cellSpacing="0" border="0" style="width:100%;height:10px">
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table width="100%" border="0" cellSpacing="0" cellPadding="0" style="background-color:transparent">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top" style="font-size:0;padding:0 40px 30px"><img id="image-0-0" src="http://cdn3.bigcommerce.com/s-h9u6j/product_images/logo_1412956868__79523.png" width="106" style="display:block;border:0;outline:none;height:auto;width:100%;max-width:106px" data-index="0" /></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <section></section>
+                        <div class="block-wrapper">
+                            <table cellPadding="0" cellSpacing="0" border="0" style="width:100%;height:10px">
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table width="100%" align="center" border="0" cellSpacing="0" cellPadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top" style="font-size:0;padding:0 20px 15px">
+                                            <!--[if mso]><table align="center" border="0" cellSpacing="0" cellPadding="0" width="640"><tbody><tr><td align="center" valign="top" width="320"><![endif]-->
+                                            <div style="display:inline-block;vertical-align:top;max-width:320px;width:100%" class="full">
+                                                <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0">
+                                                    <tbody class="shipping-address">
+                                                        <tr>
+                                                            <td style="padding:0 15px 15px">
+                                                                <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0" style="background-color:#f8f8f8;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;color:black">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td style="padding:15px 15px 0;text-align:left">
+                                                                                <h2 style="margin:0;padding:0 0 5px;font-size:14px;word-break:break-word;border-bottom:2px solid #e4e7e9;line-height:1.3;text-align:right">
+                                                                                    <div class="rendered-text">
+                                                                                        <div>Shipping Address</div>
+                                                                                    </div>
+                                                                                </h2>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="address" style="padding:15px">
+                                                                                <p style="margin:0;font-size:14px;line-height:1.4;font-family:&#x27;Libre Baskerville&#x27;, &#x27;Palatino Linotype&#x27;, &#x27;Book Antiqua&#x27;, Palatino, serif;text-align:right">%%GLOBAL_ShippingAddress%%</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                
+                                            </div>
+                                            <!--[if mso]></td><td align="center" valign="top" width="320"><![endif]-->
+                                            <div style="display:inline-block;vertical-align:top;max-width:320px;width:100%" class="full">
+                                                <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0">
+                                                    <tbody class="billing-address">
+                                                        <tr>
+                                                            <td style="padding:0 15px 15px">
+                                                                <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0" style="background-color:#f8f8f8;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;color:black">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td style="padding:15px 15px 0;text-align:left">
+                                                                                <h2 style="margin:0;padding:0 0 5px;font-size:14px;word-break:break-word;border-bottom:2px solid #e4e7e9;line-height:1.3;text-align:left">
+                                                                                    <div class="rendered-text">
+                                                                                        <div>Billing Address</div>
+                                                                                    </div>
+                                                                                </h2>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="address" style="padding:15px">
+                                                                                <p style="margin:0;font-size:14px;line-height:1.4;font-family:&#x27;Libre Baskerville&#x27;, &#x27;Palatino Linotype&#x27;, &#x27;Book Antiqua&#x27;, Palatino, serif;text-align:left">%%GLOBAL_BillingAddress%%</p>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <!--[if mso]></td></tr></tbody></table><![endif]-->
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <section></section>
+                        <div class="block-wrapper">
+                            <table cellPadding="0" cellSpacing="0" border="0" style="width:100%;height:10px">
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table border="0" cellPadding="0" cellSpacing="0" width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td style="padding:0 40px 15px;text-align:center;font-size:16px;line-height:1.4;color:#32373b;word-break:break-word;font-family:&#x27;Libre Baskerville&#x27;, &#x27;Palatino Linotype&#x27;, &#x27;Book Antiqua&#x27;, Palatino, serif">
+                                            <div class="rendered-text">
+                                                <p>Hi TODO, thank your for your purchase today! </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <section></section>
+                        <div class="block-wrapper">
+                            <table cellPadding="0" cellSpacing="0" border="0" style="width:100%;height:10px">
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table border="0" cellSpacing="0" cellPadding="0" width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td style="padding:0 40px 30px">
+                                            <table width="100%" border="0" cellPadding="0" cellSpacing="0" style="background-color:#a4915c;-webkit-border-top-left-radius:3px;-webkit-border-top-right-radius:3px;-moz-border-radius-topleft:3px;-moz-border-radius-topright:3px;border-top-left-radius:3px;border-top-right-radius:3px;color:#FFFFFF">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" style="padding:15px 40px">
+                                                            <div class="rendered-text">
+                                                                <h2>Your Receipt</h2></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="background-color:#beb291;padding:15px 40px;font-size:14px;line-height:1.6;color:#FFFFFF;letter-spacing:0px;word-break:break-word">
+                                                            <div class="rendered-text">
+                                                                <p>Invoice Number: %%GLOBAL_OrderNumber%%</p>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0" style="background-color:#f8f8f8;color:black;-webkit-border-bottom-right-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-bottomleft:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" style="padding:0 10px">
+                                                            <!--[if mso]><table align="center" border="0" cellSpacing="0" cellPadding="0" width="560"><tbody><tr><td align="center" valign="top" width="560"><![endif]-->
+                                                            <table border="0" cellPadding="0" cellSpacing="0" style="max-width:560px;width:100%">
+                                                                <thead class="eml_hide columns_header">
+                                                                    <tr>
+                                                                        <th width="50%" height="30" style="padding:10px 0;font-size:12px;line-height:14px;text-align:left;letter-spacing:0;border-bottom:2px solid #d3d3d3;font-weight:normal">
+                                                                            <div class="rendered-text">Description</div>
+                                                                        </th>
+                                                                        <th width="25%" height="30" style="padding:10px 3px 10px 0;font-size:12px;line-height:14px;text-align:right;letter-spacing:0;border-bottom:2px solid #d3d3d3;font-weight:normal">
+                                                                            <div class="rendered-text">Unit Price</div>
+                                                                        </th>
+                                                                        <th width="25%" height="30" style="padding:10px 0;font-size:12px;line-height:14px;text-align:right;letter-spacing:0;border-bottom:2px solid #d3d3d3;font-weight:normal">
+                                                                            <div class="rendered-text">Total</div>
+                                                                        </th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" valign="top" style="font-size:0;font-family:&#x27;Libre Baskerville&#x27;, &#x27;Palatino Linotype&#x27;, &#x27;Book Antiqua&#x27;, Palatino, serif;border-bottom:2px solid #d3d3d3" colSpan="3">
+                                                                            <!--[if mso]><table align="center" border="0" cellSpacing="0" cellPadding="0" width="560"><tbody><tr><td align="center" valign="top" width="280"><![endif]-->
+                                                                            <div style="vertical-align:top;max-width:280px;width:50%;display:inline-block" class="full outlook_full stacked_cell_desc">
+                                                                                <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td height="75" width="30%" align="center" style="padding:12px 0;text-align:center" class="ac_image_container">
+                                                                                                <table width="100%" cellPadding="0" cellSpacing="0" border="0">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td height="75" align="center" class="ac_image"><img width="65" alt="" style="width:auto;height:auto;max-width:75px;max-height:75px;display:block;outline:none;border:5px solid #ffffff" src="https://cdn3.bigcommerce.com/s-h9u6j/products/89/images/417/pink-stopper__41224.1476248663.1280.1280__88957.1513559834.500.500.png?c=2" /></td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                            <td height="75" width="70%" style="padding:12px 5px 3px 10px;font-size:14px;line-height:20px;text-align:left" class="mob_font ac_desc"><span>SYLTBAR Prosecco & Champagne Pink Stopper</span><br/><span style="font-size:12px">Quantity:1</span></td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                            <!--[if mso]></td><td align="center" valign="top" width="280"><![endif]-->
+                                                                            <div style="vertical-align:top;max-width:280px;width:50%;display:inline-block" class="full outlook_full stacked_cell stacked_total">
+                                                                                <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td align="center" valign="top" width="140">
+                                                                                                <!--[if mso]><table align="center" border="0" cellSpacing="0" cellPadding="0" width="280"><tbody><tr><td align="center" valign="top" width="140"><![endif]-->
+                                                                                                <div style="vertical-align:top;max-width:140px;width:140px;float:left" class="column_full full">
+                                                                                                    <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0">
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td height="75" style="padding:12px 5px 3px;font-size:14px;line-height:20px;text-align:right" class="mob_font receipt_totals2"><span style="font-size:0;line-height:0;text-align:right;font-weight:bold" class="outlook-hide mob_font">Unit Price</span> $15.25</td>
+                                                                                                            </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                </div>
+                                                                                                <!--[if mso]></td><td align="center" valign="top" width="140"><![endif]-->
+                                                                                                <div style="vertical-align:top;max-width:140px;width:140px;float:left" class="column_full full">
+                                                                                                    <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0">
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td height="75" style="padding:12px 0 3px;font-size:14px;line-height:20px;text-align:right" class="mob_font receipt_totals2"><span style="font-size:0;line-height:0;text-align:right;font-weight:bold" class="outlook-hide mob_font">Total</span> $15.25</td>
+                                                                                                            </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                </div>
+                                                                                                <!--[if mso]></td></tr></tbody></table><![endif]-->
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                            <!--[if mso]></td></tr></tbody></table><![endif]-->
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" valign="top" style="font-size:0;font-family:&#x27;Libre Baskerville&#x27;, &#x27;Palatino Linotype&#x27;, &#x27;Book Antiqua&#x27;, Palatino, serif;border-bottom:2px solid #d3d3d3" colSpan="3">
+                                                                            <!--[if mso]><table align="center" border="0" cellSpacing="0" cellPadding="0" width="560"><tbody><tr><td align="center" valign="top" width="280"><![endif]-->
+                                                                            <div style="vertical-align:top;max-width:280px;width:50%;display:inline-block" class="full outlook_full stacked_cell_desc">
+                                                                                <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td height="75" width="30%" align="center" style="padding:12px 0;text-align:center" class="ac_image_container">
+                                                                                                <table width="100%" cellPadding="0" cellSpacing="0" border="0">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td height="75" align="center" class="ac_image"><img width="65" alt="" style="width:auto;height:auto;max-width:75px;max-height:75px;display:block;outline:none;border:5px solid #ffffff" src="https://cdn3.bigcommerce.com/s-h9u6j/products/77/images/421/PROSECCOBIG1B__92460.1412944436.500.500__52765.1513543600.500.500.png?c=2" /></td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                            <td height="75" width="70%" style="padding:12px 5px 3px 10px;font-size:14px;line-height:20px;text-align:left" class="mob_font ac_desc"><span>SYLTBAR Premium Prosecco Double Magnum</span><br/><span style="font-size:12px">Quantity:1</span></td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                            <!--[if mso]></td><td align="center" valign="top" width="280"><![endif]-->
+                                                                            <div style="vertical-align:top;max-width:280px;width:50%;display:inline-block" class="full outlook_full stacked_cell stacked_total">
+                                                                                <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td align="center" valign="top" width="140">
+                                                                                                <!--[if mso]><table align="center" border="0" cellSpacing="0" cellPadding="0" width="280"><tbody><tr><td align="center" valign="top" width="140"><![endif]-->
+                                                                                                <div style="vertical-align:top;max-width:140px;width:140px;float:left" class="column_full full">
+                                                                                                    <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0">
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td height="75" style="padding:12px 5px 3px;font-size:14px;line-height:20px;text-align:right" class="mob_font receipt_totals2"><span style="font-size:0;line-height:0;text-align:right;font-weight:bold" class="outlook-hide mob_font">Unit Price</span> $39.99</td>
+                                                                                                            </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                </div>
+                                                                                                <!--[if mso]></td><td align="center" valign="top" width="140"><![endif]-->
+                                                                                                <div style="vertical-align:top;max-width:140px;width:140px;float:left" class="column_full full">
+                                                                                                    <table width="100%" align="center" border="0" cellPadding="0" cellSpacing="0">
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td height="75" style="padding:12px 0 3px;font-size:14px;line-height:20px;text-align:right" class="mob_font receipt_totals2"><span style="font-size:0;line-height:0;text-align:right;font-weight:bold" class="outlook-hide mob_font">Total</span> $39.99</td>
+                                                                                                            </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                </div>
+                                                                                                <!--[if mso]></td></tr></tbody></table><![endif]-->
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                            <!--[if mso]></td></tr></tbody></table><![endif]-->
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                                <tfoot>
+                                                                    <tr>
+                                                                        <td height="20" colSpan="2" style="padding:10px 5px 10px 10px;font-size:12px;line-height:16px;text-align:right;border-bottom:1px solid #d3d3d3;word-break:break-word">Discount</td>
+                                                                        <td style="padding:10px 0;font-size:12px;line-height:16px;text-align:right;border-bottom:1px solid #d3d3d3;word-break:break-word">-$3.00</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td height="20" colSpan="2" style="padding:10px 5px 10px 10px;font-size:12px;line-height:16px;text-align:right;border-bottom:1px solid #d3d3d3;word-break:break-word">Taxes</td>
+                                                                        <td style="padding:10px 0;font-size:12px;line-height:16px;text-align:right;border-bottom:1px solid #d3d3d3;word-break:break-word">$1.00</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="padding:20px 5px 20px 10px;font-size:12px;line-height:16px;text-align:right;border-bottom:2px solid #d3d3d3" colSpan="2" class="footer_total">
+                                                                            <div class="rendered-text">Total</div>
+                                                                        </td>
+                                                                        <td style="padding:20px 0 20px 0;font-size:12px;line-height:16px;text-align:right;border-bottom:2px solid #d3d3d3">$37.99</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colSpan="3" style="padding:15px 0;font-size:12px;line-height:16px;text-align:center;height:30px;word-break:break-word;font-family:&#x27;Libre Baskerville&#x27;, &#x27;Palatino Linotype&#x27;, &#x27;Book Antiqua&#x27;, Palatino, serif" class="payment-box">Paid with %%GLOBAL_PaymentProviderMethod%%</td>
+                                                                    </tr>
+                                                                </tfoot>
+                                                            </table>
+                                                            <!--[if mso]></td></tr></tbody></table><![endif]-->
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <section></section>
+                        
+                        <div></div>
+                        <div class="block-wrapper">
+                            <table cellPadding="0" cellSpacing="0" border="0" style="width:100%;height:10px">
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table width="100%" border="0" cellSpacing="0" cellPadding="0" align="center">
+                                <tbody>
+                                    <tr>
+                                        <td style="padding:30px 20px 0;background-color:#32373b;color:white">
+                                            <table width="100%" cellPadding="0" cellSpacing="0" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="font-size:0">
+                                                            <!--[if mso]><table align="center" border="0" cellSpacing="0" cellPadding="0" width="640"><tbody><tr><td align="left" valign="top" width="320"><![endif]-->
+                                                            <div class="full" style="vertical-align:top;display:inline-block;max-width:320px;width:100%">
+                                                                <table width="100%" align="left" border="0" cellPadding="0" cellSpacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td class="upscale_font" style="padding:0 20px 15px;font-size:12px;line-height:1.6;text-align:left;word-break:break-word;color:white;font-family:&#x27;Libre Baskerville&#x27;, &#x27;Palatino Linotype&#x27;, &#x27;Book Antiqua&#x27;, Palatino, serif">
+                                                                                <div class="rendered-text">
+                                                                                    <h3 style="font-size:24px;margin:0 0 15px;line-height:1.3;font-weight:normal">Questions?</h3>
+                                                                                    <div>If you need any help, just reply to this email and we will get back to you as soon as possible.</div>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <!--[if mso]></td><td align="right" valign="top" width="320"><![endif]-->
+                                                            <div class="full" style="vertical-align:top;display:inline-block;max-width:320px;width:100%">
+                                                                <table width="100%" border="0" cellPadding="0" cellSpacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td class="address upscale_font" style="padding:0 20px 15px;font-size:12px;line-height:1.6;text-align:right;word-break:break-word;color:white;font-family:&#x27;Libre Baskerville&#x27;, &#x27;Palatino Linotype&#x27;, &#x27;Book Antiqua&#x27;, Palatino, serif">
+                                                                                <div class="rendered-text">
+                                                                                    <div><strong>SYLTBAR</strong></div>
+                                                                                    <div>2071 SW 70th Avenue, Unit G10 </div>
+                                                                                    <div>Davie, FL 33317</div>
+                                                                                    <div>FL</div>
+                                                                                    <div>United States</div>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td id="social-icons" style="padding:0 20px 30px;text-align:right">
+                                                                                <a href="http://www.facebook.com/Syltbar" style="text-decoration:none;border:0;padding:4px"><img width="26" height="25" src="https://app.conversio.com/images/social-icons/socialize/facebook.png" style="border:0;outline:none;width:26px;height:25px" alt="Facebook" /></a>
+                                                                                <a href="http://twitter.com/Syltbar" style="text-decoration:none;border:0;padding:4px"><img width="26" height="25" src="https://app.conversio.com/images/social-icons/socialize/twitter.png" style="border:0;outline:none;width:26px;height:25px" alt="Twitter" /></a>
+                                                                                <a href="http://www.instagram.com/syltbar" style="text-decoration:none;border:0;padding:4px"><img width="26" height="25" src="https://app.conversio.com/images/social-icons/socialize/instagram.png" style="border:0;outline:none;width:26px;height:25px" alt="Instagram" /></a>
+                                                                                <a href="http://pinterest.com/syltbar" style="text-decoration:none;border:0;padding:4px"><img width="26" height="25" src="https://app.conversio.com/images/social-icons/socialize/pinterest.png" style="border:0;outline:none;width:26px;height:25px" alt="Pinterest" /></a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <!--[if mso]></td></tr></tbody></table><![endif]-->
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!--[if mso]></td></tr></tbody></table><![endif]-->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+    {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name" : "SYLTBAR",
+    "url": "http://www.syltbar.com",
+     "sameAs" : [
+    "http://www.facebook.com/Syltbar",
+    "http://twitter.com/Syltbar",
+    "http://pinterest.com/syltbar",
+    "http://www.instagram.com/syltbar"
+    ]
+    }
+</script>
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness",
+      "name" : "SYLTBAR",
+      "url": "http://www.syltbar.com",
+      "logo": "http://cdn3.bigcommerce.com/s-h9u6j/product_images/logo_1412956868__79523.png",
+      "description": "SYLTBAR Prosecco and SYLTBAR Sparkling Rose are premium quality prosecco from Friuli, Italy.",
+  "telephone": "1 (754) 200-6086",
+"address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Miami",
+    "addressRegion": "FL",
+    "streetAddress": "2071 SW 70th Avenue, Unit G10"
+  }
+  }
+</script>
