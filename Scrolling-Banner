@@ -12,11 +12,6 @@
 
 /* Begin Homepage BRANDS Slider Style */
 
-#landing .banner_home_page_top {
-    display: none !important;
-    float: left;
-}
-
 #brands-slideshow {
     height: 180px;
     position: relative;
