@@ -9,3 +9,53 @@
 
 
 <!--CSS-->
+
+/* Begin Homepage BRANDS Slider Style */
+
+#landing .banner_home_page_top {
+    display: none !important;
+    float: left;
+}
+
+#brands-slideshow {
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+
+#brands-slideshow>div {
+    height: 180px;
+    width: 4681px;
+    background: url(https://store-h9u6j.mybigcommerce.com/product_images/uploaded_images/brands-4681-2019-mar.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    -webkit-transition: opacity 0.5s ease-out;
+    -ms-transition: opacity 0.5s ease-out;
+    -webkit-animation: moveSlideshow 25s linear infinite;
+    -moz-animation: moveSlideshow 25s linear infinite;
+}
+
+@-webkit-keyframes moveSlideshow {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -4681px;
+    }
+}
+
+@-moz-keyframes moveSlideshow {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -4681px;
+    }
+}
+
+
+/* End Homepage Slider Style */
